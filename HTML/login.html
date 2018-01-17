@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Registration</title>
+	<link rel="stylesheet" href="../CSS/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../CSS/font-awesome.css"/>
+	<link rel="stylesheet" href="../CSS/stylesheet.css"/>
+	
+  </head>
+  <body id="login">
+       <header> 
+                <div class="container">
+                    <h3>Social Network for everyone</h3>
+                    <img  class="logo" src="../Asset/logo.png">
+                    <form class="form-inline">
+                            <div class="form-group">
+                            <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                            <label class="sr-only" for="exampleInputPassword3">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn btn-default">Sign in</button>
+                            <br>
+                            <div class="checkbox">
+                            <label><input type="checkbox"> Remember me</label>
+                         </div>
+                    </form>
+                </div>
+           </header>
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-8 col-sm-offset-3">
+                      <h1> <ion-header-bar>Registration form</ion-header-bar></h1>
+                        <form id="reg_form" method="post" action="home.html">
+                                <div class="form-group" attr="requir">
+                                  <label><i class="fa fa-user-circle" aria-hidden="true"></i> Full Name</label>
+                                  <input type="text" class="form-control" id="username" placeholder="Your Name" required>
+                                  <p class="help-block">Give your full name.</p>
+                                </div>
+                                <div class="form-group">
+                                  <label><i class="fa fa-calendar" aria-hidden="true"></i> Birthday</label>
+                                 <input type="date" class="form-control" id="birthday"  placeholder="Give birthdate" required>
+                                 <p class="help-block">Give your Birth Date.</p>
+                                </div>
+                                <div class="form-group">
+                                  <label><i class="fa fa-mobile" aria-hidden="true"></i> Mobile</label>
+                                  <input type="tel" class="form-control" id="mobile" placeholder="Cell No" required>
+                                  <p class="help-block">Give your Contact no.</p>
+                                </div>
+                                <div class="form-group">
+                                  <label><i class="fa fa-envelope-open" aria-hidden="true"></i> E-mail</label>
+                                  <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                  <p class="help-block">Give your e-mail.</p>
+                                </div>
+                                <div class="form-group">
+                                  <label> <i class="fa fa-eye" aria-hidden="true"></i> Password</label>
+                                  <input type="password" class="form-control" id="password" placeholder="Password" required>
+                                  <p class="help-block">Choose your password.</p>
+                                </div>
+                              
+                                <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox"id="tos"><i class="fa fa-check-circle" aria-hidden="true" required></i> Check T&C
+                                  </label>
+                                  <p class="help-block">Check the T&C</p>
+                                </div>
+                                <button type="submit" class="btn btn-default"><i class="fa fa-sign-in" aria-hidden="true"></i> Get Registered</button>
+                              </form>
+                   </div>
+               </div>
+               </div>   
+
+           <div class="container-fluid" id="footer">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-md-8">
+                        <a href="https://arafatportfolio.wordpress.com/"><b>Rayhan Arafat Nibir|</b> </a> <a href="https://www.facebook.com/SM.NIBIR"><b>Facebook</b></a>    
+                    </div>
+                    <div class="col-md-4">
+                        <p class="muted pull-right"><em>©Amtola IT,All rights reserved</em></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="../JavaScript/jquery.js"></script>
+    <script src="../JavaScript/bootstrap.min.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,224 @@
+@font-face
+{
+	font-family: Arial, Helvetica, sans-serif;
+	src:url(../fonts/glyphicons-halflings-regular.eot);
+
+}
+header
+{
+    background-color:aqua;
+    color:rgb(14, 212, 104);
+    max-height:120px;
+    padding-top:20px;
+   
+
+    border:1px solid black;
+}
+.navbar
+{
+    background-color: black;
+    color:DarkGray;
+    font-size:20px;
+    font-weight: bold;
+}
+.logo
+{
+    height:80px;
+    width:60px;
+    float:left;
+    padding-bottom:20px;
+}
+#login
+{
+    background-color: aqua;
+}
+h3
+{
+    margin-top:0px;
+    color:rgb(1, 53, 18);
+    font-size:25px;
+}
+
+header form
+{
+float:right;
+padding-bottom:30px;
+}
+#panelhead
+{
+    background-color:aqua;
+    color:white;
+}
+
+.bubble
+{
+    position: relative;
+    width:580px;
+    min-height:65px;
+    border-radius:10px;
+    padding:15px;
+    background:white;
+    border:1px solid #ccc;
+}
+.bubble:after
+{
+    content:'';
+    position:absolute;
+    border-style:solid;
+    border-width:15px 15px 15px 0;
+    display:block;
+    width:0px;
+    margin-top:-15px;
+    left:-15px;
+    top:50%;
+    z-index:1;
+    border-color:transparent white;
+}
+.bubble:before
+{
+    content:'';
+    position:absolute;
+    border-style:solid;
+    border-width:15px 15px 15px 0;
+    display:block;
+    width:0px;
+    margin-top:-15px;
+    left:-16px;
+    top:50%;
+    border-color:transparent grey;
+    z-index:0;
+}
+.post-actions
+{
+    margin:5px;
+}
+#form-group
+{
+    width:90%;
+}
+#form-control
+{
+    width:100%;
+}
+.comment
+{
+    border:1px solid 	#1E90FF;
+    border-radius:5px;
+    padding:3px;
+    margin:5px 0;
+    width:100%;
+    overflow:auto;
+}
+.comment-avatar img
+{
+    width:40px;
+    margin-right: 10px;
+}
+.friends li
+{
+    list-style:none;
+    float: left;
+    padding:5px;
+}
+.friends img
+{
+    width:80px;
+    float:left;
+    height:100px;
+}
+.group-item img
+{
+    width:130px;
+    height:130px;
+}
+.group-item
+{
+    padding-bottom:10px;
+    margin-bottom:20px;
+    border-bottom:1px solid #ccc;
+    overflow:auto;
+
+}
+.members #memberscol
+{
+    padding-bottom:30px;
+    margin-bottom:30px;
+    border:1px solid #008080;
+}
+#img
+{
+    height:150px;
+    width:150px;
+    margin-top:8px;
+}
+#btn
+{
+    background: #00FA9A;
+    border:1px solid rgb(199, 127, 127);
+    line-height: 30px;
+    font-size:15px;
+}
+
+.photos
+{
+    margin:0;
+    padding:0;
+}
+.photos li{
+    list-style: none;
+    float:left;
+    margin:5px;
+    width:23%;
+}
+.photos img
+{
+    width:100%;
+    height:170px;
+}
+.valid
+{
+    border:1px solid blue;
+    color:green;
+}
+.error
+{
+    border:1px solid blue;
+    color:rgb(128, 0, 0);
+}
+#username
+{
+    width:500px;
+    line-height: 30px;
+}
+#birthday
+{
+    width:500px;
+    line-height: 30px;
+}
+#mobile
+{
+    width:500px;
+    line-height: 30px;
+}
+#email
+{
+    width:500px;
+    line-height: 30px;
+}
+#password
+{
+    width:500px;
+    line-height: 30px;
+}
+
+#footer
+{
+    background-color:aqua;
+    border-top:1px solid black;
+}
+@media(min-width:99px){
+.members p
+{
+padding-top:65px;
+}
+}
